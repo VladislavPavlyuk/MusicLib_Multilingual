@@ -117,13 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Log in" xml:space="preserve">
-    <value>Вхід</value>
+  <data name="Artists" xml:space="preserve">
+    <value />
   </data>
-  <data name="Password" xml:space="preserve">
-    <value>Пароль</value>
+  <data name="Genres" xml:space="preserve">
+    <value />
   </data>
-  <data name="Show Password" xml:space="preserve">
-    <value>Показати пароль</value>
+  <data name="RequiredField" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Songs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sorry! Your registration is still pending approvement." xml:space="preserve">
+    <value />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value />
   </data>
 </root>

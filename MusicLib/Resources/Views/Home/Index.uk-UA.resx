@@ -129,6 +129,9 @@
   <data name="Songs" xml:space="preserve">
     <value>Пісні</value>
   </data>
+  <data name="Sorry! Your registration is still pending approvement." xml:space="preserve">
+    <value>Вибач! Ваша реєстрація все ще очікує на затвердження.</value>
+  </data>
   <data name="Users" xml:space="preserve">
     <value>Користувачі</value>
   </data>

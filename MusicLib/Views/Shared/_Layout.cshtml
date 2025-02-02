@@ -28,7 +28,7 @@
                 }
                 else
                 {
-                    <span class="navbar-brand">Hello,  @Context.Session.GetString("Email")  </span>
+                    <span class="navbar-brand">@Localizer["Hello"],  @Context.Session.GetString("Email")  </span>
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Logout">@Localizer["Logout"]</a>
                 }
             </div>

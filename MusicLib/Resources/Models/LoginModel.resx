@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Log in" xml:space="preserve">
-    <value>Вхід</value>
-  </data>
   <data name="Password" xml:space="preserve">
-    <value>Пароль</value>
+    <value />
   </data>
-  <data name="Show Password" xml:space="preserve">
-    <value>Показати пароль</value>
+  <data name="The Email field is not a valid email address." xml:space="preserve">
+    <value />
+  </data>
+  <data name="The Email field is required." xml:space="preserve">
+    <value />
   </data>
 </root>

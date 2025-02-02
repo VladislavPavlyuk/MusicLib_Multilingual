@@ -129,4 +129,7 @@
   <data name="Registration" xml:space="preserve">
     <value>Реєстрація</value>
   </data>
+  <data name="Show Password" xml:space="preserve">
+    <value>Показати пароль</value>
+  </data>
 </root>

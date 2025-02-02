@@ -19,8 +19,9 @@
             <div class="form-group">
                 <label asp-for="Password" class="control-label">
                     @Localizer["Password"]</label>
-                <input asp-for="Password" class="form-control" placeholder="Admin"  />
+                <input asp-for="Password" class="form-control" placeholder="Admin" type="password" id="Password" name="Password" />
                 <span asp-validation-for="Password" class="text-danger"></span>
+                <input type="checkbox" id="ShowPassword" onclick="togglePasswordVisibility()">@Localizer["Show Password"]
             </div>
             <div class="form-group">
                 <input type="submit" value="@Localizer["Log in"]" class="btn btn-primary"/>
@@ -28,9 +29,20 @@
         </form>
     </div>
 </div>
-
+<script>
+    function togglePasswordVisibility() {
+        var passwordField = document.getElementById("Password");
+        var showPasswordCheckbox = document.getElementById("ShowPassword");
+        if (showPasswordCheckbox.checked) {
+            passwordField.type = "text";
+        } else {
+            passwordField.type = "password";
+        }
+    }
+</script>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
     }
 }

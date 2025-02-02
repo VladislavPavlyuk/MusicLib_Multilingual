@@ -129,4 +129,7 @@
   <data name="Registration" xml:space="preserve">
     <value>Registration</value>
   </data>
+  <data name="Show Password" xml:space="preserve">
+    <value>Show Password</value>
+  </data>
 </root>
